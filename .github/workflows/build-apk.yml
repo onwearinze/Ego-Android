@@ -23,17 +23,18 @@ jobs:
           distribution: temurin
           java-version: '17'
 
-      - name: Set up Android SDK
-        uses: android-actions/setup-android@v3
-
       - name: Install Android SDK packages
         run: |
-          sdkmanager "platforms;android-35" "build-tools;35.0.0"
+          SDK_ROOT="${ANDROID_HOME:-/usr/local/lib/android/sdk}"
+          SDKMANAGER="$(find "$SDK_ROOT/cmdline-tools" -type f -name sdkmanager | sort | tail -n 1)"
+          yes | "$SDKMANAGER" --licenses >/dev/null || true
+          "$SDKMANAGER" --install "platforms;android-35" "build-tools;35.0.0"
 
       - name: Extract EGO project
         run: |
           mkdir -p source
-          unzip -q "$(find . -maxdepth 1 -name '*.zip' | head -n 1)" -d source
+          ZIP_FILE=$(find . -maxdepth 1 -name '*.zip' | head -n 1)
+          unzip -q "$ZIP_FILE" -d source
           PROJECT_DIR=$(dirname "$(find source -name settings.gradle | head -n 1)")
           echo "PROJECT_DIR=$PROJECT_DIR" >> "$GITHUB_ENV"
 
@@ -42,12 +43,12 @@ jobs:
         with:
           gradle-version: '8.9'
 
-      - name: Build debug APK
+      - name: Build EGO APK
         run: |
           cd "$PROJECT_DIR"
           gradle assembleDebug
 
-      - name: Upload EGO APK
+      - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
           name: EGO-Android-APK
