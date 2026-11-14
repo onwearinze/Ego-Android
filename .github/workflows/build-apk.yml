@@ -1,0 +1,54 @@
+
+name: Build EGO Android APK
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Set up Android SDK
+        uses: android-actions/setup-android@v3
+
+      - name: Install Android SDK packages
+        run: |
+          sdkmanager "platforms;android-35" "build-tools;35.0.0"
+
+      - name: Extract EGO project
+        run: |
+          mkdir -p source
+          unzip -q "$(find . -maxdepth 1 -name '*.zip' | head -n 1)" -d source
+          PROJECT_DIR=$(dirname "$(find source -name settings.gradle | head -n 1)")
+          echo "PROJECT_DIR=$PROJECT_DIR" >> "$GITHUB_ENV"
+
+      - name: Set up Gradle
+        uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '8.9'
+
+      - name: Build debug APK
+        run: |
+          cd "$PROJECT_DIR"
+          gradle assembleDebug
+
+      - name: Upload EGO APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: EGO-Android-APK
+          path: source/**/app/build/outputs/apk/debug/*.apk
