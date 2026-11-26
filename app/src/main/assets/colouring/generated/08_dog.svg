@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Dog">
+<title>Dog</title>
+<rect width="512" height="512" fill="#ffffff"/>
+<ellipse cx="260" cy="350" rx="112" ry="88" fill="white" stroke-width="11" id="region-1" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="256" cy="205" r="88" fill="white" stroke-width="11" id="region-2" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<ellipse cx="175" cy="210" rx="35" ry="78" fill="white" stroke-width="11" transform="rotate(18 175 210)" id="region-3" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<ellipse cx="337" cy="210" rx="35" ry="78" fill="white" stroke-width="11" transform="rotate(-18 337 210)" id="region-4" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<ellipse cx="220" cy="205" rx="11" ry="15" fill="white" stroke-width="11" id="region-5" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<ellipse cx="292" cy="205" rx="11" ry="15" fill="white" stroke-width="11" id="region-6" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="220" cy="205" r="4" fill="#111" stroke-width="11" id="region-7" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="292" cy="205" r="4" fill="#111" stroke-width="11" id="region-8" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<ellipse cx="256" cy="245" rx="38" ry="28" fill="white" stroke-width="11" id="region-9" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="256" cy="230" r="12" fill="white" stroke-width="11" id="region-10" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M256 250 Q240 270 225 253 M256 250 Q272 270 287 253" fill="white" stroke-width="11" id="region-11" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M365 340 Q430 315 415 275" fill="white" stroke-width="11" id="region-12" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<rect x="190" y="400" width="32" height="50" rx="10" fill="white" stroke-width="11" id="region-13" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<rect x="300" y="400" width="32" height="50" rx="10" fill="white" stroke-width="11" id="region-14" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="350" cy="310" r="12" fill="white" stroke-width="11" id="region-15" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Ice Cream">
+<title>Ice Cream</title>
+<rect width="512" height="512" fill="#ffffff"/>
+<path d="M155 245 L355 245 L265 440 Q255 460 245 440 Z" fill="white" stroke-width="11" id="region-1" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="256" cy="190" r="95" fill="white" stroke-width="11" id="region-2" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="190" cy="220" r="55" fill="white" stroke-width="11" id="region-3" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="320" cy="220" r="55" fill="white" stroke-width="11" id="region-4" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="215" cy="165" r="6" fill="#111" stroke-width="4" id="region-5" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="280" cy="190" r="6" fill="#111" stroke-width="4" id="region-6" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="250" cy="225" r="6" fill="#111" stroke-width="4" id="region-7" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="315" cy="145" r="6" fill="#111" stroke-width="4" id="region-8" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M175 260 L335 260" fill="white" stroke-width="11" id="region-9" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+</svg>

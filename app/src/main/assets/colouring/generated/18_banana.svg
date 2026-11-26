@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Banana">
+<title>Banana</title>
+<rect width="512" height="512" fill="#ffffff"/>
+<path d="M95 170 Q130 330 330 355 Q405 360 440 290 Q390 325 345 295 Q200 250 165 125 Z" fill="white" stroke-width="11" id="region-1" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M120 150 Q110 130 95 145 L80 170 Q95 190 115 180" fill="white" stroke-width="11" id="region-2" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M435 280 Q455 270 455 290 L435 315 Q420 310 425 295" fill="white" stroke-width="11" id="region-3" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M145 210 Q235 310 385 315" fill="white" stroke-width="11" id="region-4" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M165 145 Q245 245 390 270" fill="white" stroke-width="11" id="region-5" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Elephant">
+<title>Elephant</title>
+<rect width="512" height="512" fill="#ffffff"/>
+<ellipse cx="260" cy="330" rx="125" ry="105" fill="white" stroke-width="11" id="region-1" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="256" cy="190" r="95" fill="white" stroke-width="11" id="region-2" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<ellipse cx="150" cy="200" rx="66" ry="91" fill="white" stroke-width="11" id="region-3" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<ellipse cx="362" cy="200" rx="66" ry="91" fill="white" stroke-width="11" id="region-4" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M250 230 Q240 290 260 320 Q280 350 258 385 Q240 410 220 390" fill="white" stroke-width="11" id="region-5" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M286 275 Q310 250 324 280 Q330 300 308 302" fill="white" stroke-width="11" id="region-6" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<ellipse cx="221" cy="184" rx="9" ry="13" fill="white" stroke-width="11" id="region-7" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<ellipse cx="292" cy="184" rx="9" ry="13" fill="white" stroke-width="11" id="region-8" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="221" cy="184" r="3" fill="#111" stroke-width="11" id="region-9" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="292" cy="184" r="3" fill="#111" stroke-width="11" id="region-10" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M242 245 Q256 260 272 245" fill="white" stroke-width="11" id="region-11" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<rect x="190" y="385" width="45" height="65" rx="18" fill="white" stroke-width="11" id="region-12" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<rect x="300" y="385" width="45" height="65" rx="18" fill="white" stroke-width="11" id="region-13" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+</svg>

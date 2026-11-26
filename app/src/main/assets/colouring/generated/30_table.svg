@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Table">
+<title>Table</title>
+<rect width="512" height="512" fill="#ffffff"/>
+<rect x="85" y="190" width="340" height="80" rx="22" fill="white" stroke-width="11" id="region-1" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M120 270 L95 430" fill="none" stroke-width="14" id="region-2" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M390 270 L415 430" fill="none" stroke-width="14" id="region-3" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M180 270 L180 420" fill="none" stroke-width="14" id="region-4" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M330 270 L330 420" fill="none" stroke-width="14" id="region-5" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Aeroplane">
+<title>Aeroplane</title>
+<rect width="512" height="512" fill="#ffffff"/>
+<path d="M55 270 Q75 220 160 220 L420 220 Q460 230 450 260 Q430 285 370 285 L160 285 Q90 305 55 270 Z" fill="white" stroke-width="11" id="region-1" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M220 220 L290 105 Q310 85 325 105 L300 225 Z" fill="white" stroke-width="11" id="region-2" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M240 280 L310 390 Q325 405 340 385 L300 280 Z" fill="white" stroke-width="11" id="region-3" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M390 220 L440 165 Q460 160 465 180 L445 235" fill="white" stroke-width="11" id="region-4" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="170" cy="245" r="7" fill="white" stroke-width="11" id="region-5" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="220" cy="245" r="7" fill="white" stroke-width="11" id="region-6" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="270" cy="245" r="7" fill="white" stroke-width="11" id="region-7" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="320" cy="245" r="7" fill="white" stroke-width="11" id="region-8" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+</svg>

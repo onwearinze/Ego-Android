@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Teddy Bear">
+<title>Teddy Bear</title>
+<rect width="512" height="512" fill="#ffffff"/>
+<circle cx="256" cy="155" r="92" fill="white" stroke-width="11" id="region-1" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="185" cy="90" r="42" fill="white" stroke-width="11" id="region-2" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="327" cy="90" r="42" fill="white" stroke-width="11" id="region-3" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<ellipse cx="256" cy="310" rx="115" ry="105" fill="white" stroke-width="11" id="region-4" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<ellipse cx="145" cy="285" rx="42" ry="65" fill="white" stroke-width="11" transform="rotate(-25 145 285)" id="region-5" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<ellipse cx="367" cy="285" rx="42" ry="65" fill="white" stroke-width="11" transform="rotate(25 367 285)" id="region-6" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<ellipse cx="190" cy="415" rx="58" ry="35" fill="white" stroke-width="11" id="region-7" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<ellipse cx="322" cy="415" rx="58" ry="35" fill="white" stroke-width="11" id="region-8" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<ellipse cx="220" cy="155" rx="10" ry="13" fill="white" stroke-width="11" id="region-9" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<ellipse cx="292" cy="155" rx="10" ry="13" fill="white" stroke-width="11" id="region-10" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="220" cy="155" r="4" fill="#111" stroke-width="11" id="region-11" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="292" cy="155" r="4" fill="#111" stroke-width="11" id="region-12" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<ellipse cx="256" cy="195" rx="34" ry="25" fill="white" stroke-width="11" id="region-13" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="256" cy="185" r="10" fill="white" stroke-width="11" id="region-14" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M235 205 Q256 225 277 205" fill="white" stroke-width="11" id="region-15" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M220 275 Q256 300 292 275" fill="white" stroke-width="11" id="region-16" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+</svg>

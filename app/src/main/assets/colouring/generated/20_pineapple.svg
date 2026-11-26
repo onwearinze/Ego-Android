@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Pineapple">
+<title>Pineapple</title>
+<rect width="512" height="512" fill="#ffffff"/>
+<ellipse cx="256" cy="300" rx="105" ry="145" fill="white" stroke-width="11" id="region-1" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M175 190 l22 22 l-22 22 l-22 -22 Z" fill="white" stroke-width="6" id="region-2" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M220 190 l22 22 l-22 22 l-22 -22 Z" fill="white" stroke-width="6" id="region-3" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M265 190 l22 22 l-22 22 l-22 -22 Z" fill="white" stroke-width="6" id="region-4" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M310 190 l22 22 l-22 22 l-22 -22 Z" fill="white" stroke-width="6" id="region-5" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M175 235 l22 22 l-22 22 l-22 -22 Z" fill="white" stroke-width="6" id="region-6" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M220 235 l22 22 l-22 22 l-22 -22 Z" fill="white" stroke-width="6" id="region-7" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M265 235 l22 22 l-22 22 l-22 -22 Z" fill="white" stroke-width="6" id="region-8" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M310 235 l22 22 l-22 22 l-22 -22 Z" fill="white" stroke-width="6" id="region-9" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M175 280 l22 22 l-22 22 l-22 -22 Z" fill="white" stroke-width="6" id="region-10" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M220 280 l22 22 l-22 22 l-22 -22 Z" fill="white" stroke-width="6" id="region-11" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M265 280 l22 22 l-22 22 l-22 -22 Z" fill="white" stroke-width="6" id="region-12" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M310 280 l22 22 l-22 22 l-22 -22 Z" fill="white" stroke-width="6" id="region-13" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M175 325 l22 22 l-22 22 l-22 -22 Z" fill="white" stroke-width="6" id="region-14" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M220 325 l22 22 l-22 22 l-22 -22 Z" fill="white" stroke-width="6" id="region-15" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M265 325 l22 22 l-22 22 l-22 -22 Z" fill="white" stroke-width="6" id="region-16" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M310 325 l22 22 l-22 22 l-22 -22 Z" fill="white" stroke-width="6" id="region-17" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M175 370 l22 22 l-22 22 l-22 -22 Z" fill="white" stroke-width="6" id="region-18" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M220 370 l22 22 l-22 22 l-22 -22 Z" fill="white" stroke-width="6" id="region-19" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M265 370 l22 22 l-22 22 l-22 -22 Z" fill="white" stroke-width="6" id="region-20" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M310 370 l22 22 l-22 22 l-22 -22 Z" fill="white" stroke-width="6" id="region-21" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M175 415 l22 22 l-22 22 l-22 -22 Z" fill="white" stroke-width="6" id="region-22" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M220 415 l22 22 l-22 22 l-22 -22 Z" fill="white" stroke-width="6" id="region-23" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M265 415 l22 22 l-22 22 l-22 -22 Z" fill="white" stroke-width="6" id="region-24" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M310 415 l22 22 l-22 22 l-22 -22 Z" fill="white" stroke-width="6" id="region-25" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M245 160 Q175 90 190 40 Q250 65 260 150" fill="white" stroke-width="11" id="region-26" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M255 155 Q245 60 290 35 Q315 100 270 165" fill="white" stroke-width="11" id="region-27" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M265 155 Q320 75 365 85 Q350 145 275 175" fill="white" stroke-width="11" id="region-28" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+</svg>

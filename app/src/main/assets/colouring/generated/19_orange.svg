@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Orange">
+<title>Orange</title>
+<rect width="512" height="512" fill="#ffffff"/>
+<circle cx="256" cy="265" r="150" fill="white" stroke-width="11" id="region-1" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M255 115 Q245 85 265 65" fill="white" stroke-width="11" id="region-2" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M260 95 Q310 55 345 85 Q315 120 260 95" fill="white" stroke-width="11" id="region-3" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="180" cy="220" r="5" fill="#111" stroke-width="4" id="region-4" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="250" cy="180" r="5" fill="#111" stroke-width="4" id="region-5" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="315" cy="225" r="5" fill="#111" stroke-width="4" id="region-6" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="205" cy="310" r="5" fill="#111" stroke-width="4" id="region-7" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="295" cy="330" r="5" fill="#111" stroke-width="4" id="region-8" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+</svg>

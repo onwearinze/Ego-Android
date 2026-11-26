@@ -1,0 +1,28 @@
+{
+  "object_art": [
+    "apple",
+    "banana",
+    "orange",
+    "grapes",
+    "lion",
+    "elephant",
+    "monkey",
+    "butterfly",
+    "car",
+    "bus",
+    "airplane",
+    "bicycle",
+    "soccer-ball",
+    "teddy",
+    "star",
+    "hibiscus"
+  ],
+  "digit_alphabet_png_count": 36,
+  "colouring_svg_count": 50,
+  "crowd_cheer": {
+    "filename": "crowd-cheer.mp3",
+    "source": "https://sfxmint.com/sounds/crowd-chant-15",
+    "license": "CC0 1.0",
+    "human_recorded": false
+  }
+}

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Tree">
+<title>Tree</title>
+<rect width="512" height="512" fill="#ffffff"/>
+<path d="M215 430 L215 300 Q160 270 180 230 Q135 180 180 145 Q180 75 255 80 Q315 45 350 115 Q420 130 390 205 Q415 260 340 290 L300 430 Z" fill="white" stroke-width="11" id="region-1" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M255 300 L220 240 M270 260 L320 205 M255 330 L180 300" fill="white" stroke-width="11" id="region-2" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<ellipse cx="255" cy="170" rx="110" ry="95" fill="white" stroke-width="11" id="region-3" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+</svg>

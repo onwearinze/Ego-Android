@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Zebra">
+<title>Zebra</title>
+<rect width="512" height="512" fill="#ffffff"/>
+<ellipse cx="245" cy="300" rx="145" ry="80" fill="white" stroke-width="11" id="region-1" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M320 285 Q350 210 380 150 Q410 115 430 145 L420 235 Q385 280 355 320" fill="white" stroke-width="11" id="region-2" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<ellipse cx="425" cy="142" rx="45" ry="42" fill="white" stroke-width="11" id="region-3" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<polygon points="400,112 407,65 430,110" fill="white" stroke-width="11" id="region-4" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<polygon points="440,108 466,70 460,125" fill="white" stroke-width="11" id="region-5" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<ellipse cx="410" cy="140" rx="6" ry="9" fill="white" stroke-width="11" id="region-6" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<ellipse cx="445" cy="140" rx="6" ry="9" fill="white" stroke-width="11" id="region-7" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="410" cy="140" r="3" fill="#111" stroke-width="11" id="region-8" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="445" cy="140" r="3" fill="#111" stroke-width="11" id="region-9" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M160 230 Q140 300 172 365" fill="white" stroke-width="11" id="region-10" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M220 230 Q200 300 232 365" fill="white" stroke-width="11" id="region-11" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M280 230 Q260 300 292 365" fill="white" stroke-width="11" id="region-12" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M340 230 Q320 300 352 365" fill="white" stroke-width="11" id="region-13" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<rect x="160" y="345" width="28" height="105" rx="8" fill="white" stroke-width="11" id="region-14" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<rect x="235" y="345" width="28" height="105" rx="8" fill="white" stroke-width="11" id="region-15" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<rect x="300" y="345" width="28" height="105" rx="8" fill="white" stroke-width="11" id="region-16" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<rect x="350" y="345" width="28" height="105" rx="8" fill="white" stroke-width="11" id="region-17" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M110 285 Q65 250 80 220" fill="white" stroke-width="11" id="region-18" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+</svg>

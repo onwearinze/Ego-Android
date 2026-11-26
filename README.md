@@ -10,7 +10,7 @@ A fully offline-first Android preschool learning app using the approved EGO home
 - Colour Adventure: 27 named colours, 15 familiar colour-mixing outcomes and seven rainbow colours.
 - Story Builder: 20 animal stories and fables.
 - My Little Classroom: 50 teacher-led lesson cards.
-- Pattern Detective: 30 tests. Memory Master: 40 rounds. Little Maths Shop: 40 rounds. Listen and Do: 40 listening challenges. Little Artist: 50 local SVG colouring pages.
+- Pattern Detective: 30 tests. Memory Master: 40 rounds. Little Maths Shop: 40 rounds. Listen and Do: 40 listening challenges. Little Artist: 90 local SVG colouring pages.
 
 The APK bundles 418 local MP3 audio clips plus Android offline Text-to-Speech for lesson narration when an offline English voice is installed. No INTERNET permission, online services, advertising, trackers, accounts or cloud storage. Progress and parent sound settings are stored locally.
 
@@ -32,3 +32,6 @@ The original module navigation and learning activity logic remain in place.
 - Each game contains ten progressive rounds, immediate feedback, spoken encouragement, and star/progress recording. Games use local HTML/CSS/JavaScript and do not require an internet connection or additional image downloads.
 - The launcher display name is now **EGO**. The new square EGO artwork is installed as the Android launcher icon at standard density sizes.
 - Sound Safari currently uses spoken animal-call words through the app's speech engine. It does not yet include authentic recorded animal-effect audio.
+
+
+See `EGO_UPDATE_NOTES.md` for the latest source changes, verification results, and the optional offline crowd-cheer audio asset.

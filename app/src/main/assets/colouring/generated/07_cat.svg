@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Cat">
+<title>Cat</title>
+<rect width="512" height="512" fill="#ffffff"/>
+<ellipse cx="256" cy="350" rx="105" ry="90" fill="white" stroke-width="11" id="region-1" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="256" cy="205" r="90" fill="white" stroke-width="11" id="region-2" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<polygon points="184,150 185,70 245,125" fill="white" stroke-width="11" id="region-3" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<polygon points="267,125 330,70 330,155" fill="white" stroke-width="11" id="region-4" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<ellipse cx="220" cy="205" rx="11" ry="15" fill="white" stroke-width="11" id="region-5" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<ellipse cx="292" cy="205" rx="11" ry="15" fill="white" stroke-width="11" id="region-6" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="220" cy="205" r="4" fill="#111" stroke-width="11" id="region-7" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="292" cy="205" r="4" fill="#111" stroke-width="11" id="region-8" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M240 238 Q256 252 272 238" fill="white" stroke-width="11" id="region-9" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<polygon points="245,225 256,215 267,225" fill="white" stroke-width="11" id="region-10" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M185 235 L120 225" fill="none" stroke-width="7" id="region-11" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M327 235 L392 225" fill="none" stroke-width="7" id="region-12" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M185 255 L120 245" fill="none" stroke-width="7" id="region-13" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M327 255 L392 245" fill="none" stroke-width="7" id="region-14" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M350 360 Q435 350 405 270 Q395 245 375 265" fill="white" stroke-width="11" id="region-15" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<ellipse cx="210" cy="430" rx="38" ry="22" fill="white" stroke-width="11" id="region-16" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<ellipse cx="305" cy="430" rx="38" ry="22" fill="white" stroke-width="11" id="region-17" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+</svg>
