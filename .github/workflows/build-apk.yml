@@ -2,7 +2,7 @@ name: Build EGO Android APK
 
 on:
   push:
-    branches: [main]
+    branches: [main, ego/build-pipeline]
   workflow_dispatch:
 
 permissions:
