@@ -1,0 +1,23 @@
+plugins { id 'com.android.application' }
+android {
+    namespace 'com.ego.learning'
+    compileSdk 35
+    signingConfigs {
+        debug {
+            storeFile file('ego-debug.keystore')
+            storePassword 'ego-debug-2026'
+            keyAlias 'ego-debug'
+            keyPassword 'ego-debug-2026'
+        }
+    }
+    buildTypes {
+        debug { signingConfig signingConfigs.debug }
+    }
+    defaultConfig {
+        applicationId 'com.ego.learning'
+        minSdk 23
+        targetSdk 35
+        versionCode 4
+        versionName '2.1.0'
+    }
+}
