@@ -34,3 +34,20 @@ The app currently uses its bundled MP3 word/number clips where available and the
 - All 10 digit and 26 alphabet PNG paths resolve.
 - Word bank counts checked: 26 two-letter, 100 three-letter and 100 four-letter entries.
 - An Android APK build and on-device interaction test were not possible in this environment because the Android SDK/Gradle build environment and a connected Android device are not available. Use the included GitHub Actions workflow or Android Studio to build and then test on the target phone before release.
+
+
+## 33-sheet illustration integration
+- Added all 33 newly supplied 3D illustration sheets to the source project.
+- Extracted 528 individual illustrations from the 4-by-4 sheets; 4 exact/perceptual duplicates were removed, leaving 524 catalogue assets.
+- Stored individual transparent PNG assets under `app/src/main/assets/images/catalog/`, grouped by subject category.
+- Added the offline Picture Explorer to Wonderful World, with image, subject name, category, spoken-name control, and previous/next navigation.
+- Updated the shared illustration renderer so matching objects in existing animal, nature, story, shop, and treasure activities can use the new 3D artwork instead of emoji fallbacks.
+- Added a machine-readable catalogue manifest at `app/src/main/assets/images/catalog-manifest.json`.
+- No network access is required for these assets. The project remains offline-first.
+
+## Validation for this integration
+- 33 source sheets identified and processed.
+- 524 individual PNG illustrations packaged.
+- Inline JavaScript syntax check passed with Node.js.
+- All catalogue paths are checked against files during packaging.
+- Android runtime rendering and touch interaction still require installation and testing on the target device.

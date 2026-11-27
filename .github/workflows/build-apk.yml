@@ -12,7 +12,6 @@ jobs:
   build:
     name: Build and package EGO
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout EGO project
         uses: actions/checkout@v4
@@ -31,10 +30,13 @@ jobs:
           yes | "$SDKMANAGER" --licenses >/dev/null || true
           "$SDKMANAGER" --install "platform-tools" "platforms;android-35" "build-tools;35.0.0"
 
-      - name: Verify bundled crowd cheer
+      - name: Verify optional bundled crowd cheer
         run: |
-          test -s app/src/main/assets/audio/crowd-cheer.mp3
-          file app/src/main/assets/audio/crowd-cheer.mp3
+          if [ -s app/src/main/assets/audio/crowd-cheer.mp3 ]; then
+            echo "Bundled crowd-cheer.mp3 found."
+          else
+            echo "No crowd-cheer.mp3 supplied; the app will use its built-in celebratory chime fallback."
+          fi
 
       - name: Set up Gradle 8.9
         uses: gradle/actions/setup-gradle@v4

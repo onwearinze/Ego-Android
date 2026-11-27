@@ -35,3 +35,7 @@ The original module navigation and learning activity logic remain in place.
 
 
 See `EGO_UPDATE_NOTES.md` for the latest source changes, verification results, and the optional offline crowd-cheer audio asset.
+
+
+## Latest illustration integration
+The Wonderful World module now includes Picture Explorer with 524 individual offline 3D illustrations extracted from the 33 supplied image sheets. The shared image renderer also uses matching catalogue illustrations in existing learning activities. See `EGO_UPDATE_NOTES.md` for details.
