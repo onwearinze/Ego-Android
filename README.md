@@ -37,5 +37,24 @@ The original module navigation and learning activity logic remain in place.
 See `EGO_UPDATE_NOTES.md` for the latest source changes, verification results, and the optional offline crowd-cheer audio asset.
 
 
-## Latest illustration integration
-The Wonderful World module now includes Picture Explorer with 524 individual offline 3D illustrations extracted from the 33 supplied image sheets. The shared image renderer also uses matching catalogue illustrations in existing learning activities. See `EGO_UPDATE_NOTES.md` for details.
+## Categorised illustration catalog
+
+The latest non-APK build includes the 467 extracted illustration assets under
+`app/src/main/assets/images/catalog/`, grouped into category folders. The in-app
+Picture Explorer is generated from this catalog and uses the actual category
+paths. The HTML image resolver also uses these catalog paths for matching
+learning illustrations and activity-menu art where a relevant image exists.
+
+
+## Catalog and learning-page refinements (27 Nov 2026)
+- Removed the `unidentified_review` category; its remaining wind and baseball assets are represented in their correct categories.
+- Removed 27 cross-category duplicate object entries, retaining one canonical category copy for each repeated object.
+- Updated the in-app picture catalogue and image lookup to reflect the 438 retained catalog images.
+- Reduced Miss Ada's portrait display size by approximately half.
+- Added a separate Back control on module menus and learning pages; the Previous/Next lesson controls remain unchanged.
+- Applied a rounded system-font stack to page headings without adding an online font dependency.
+- Fixed Memory Master so it locks after two cards are selected, keeps matched pairs, and turns both unmatched cards back over after a short delay. Memory cards now use catalog images.
+
+
+## Nursery Rhymes Update
+A dedicated Nursery Rhymes module now includes the five supplied songs. The supplied `background_sound.mp3` replaces the previous generated background tone and is controlled by the parent music setting. See `EGO_NURSERY_RHYMES_UPDATE.md`.

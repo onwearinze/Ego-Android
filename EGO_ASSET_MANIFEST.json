@@ -24,5 +24,35 @@
     "source": "https://sfxmint.com/sounds/crowd-chant-15",
     "license": "CC0 1.0",
     "human_recorded": false
+  },
+  "catalog": {
+    "image_count": 438,
+    "categories": {
+      "African Culture": 16,
+      "Animals": 28,
+      "Birds": 31,
+      "Body Organs": 16,
+      "Body Parts": 16,
+      "Children And Emotions": 16,
+      "Clothing And Accessories": 17,
+      "Community Helpers And Jobs": 16,
+      "Food And Groceries": 11,
+      "Fruits": 31,
+      "Furniture": 16,
+      "Home And Toys": 15,
+      "Household And Kitchen": 14,
+      "Hygiene And Self Care": 16,
+      "Insects And Small Creatures": 16,
+      "Musical Instruments": 17,
+      "Nature Weather And Space": 13,
+      "School Supplies": 13,
+      "Sea Animals": 16,
+      "Shapes": 32,
+      "Sports And Play": 11,
+      "Vehicles": 45,
+      "Water Transport": 16
+    },
+    "unidentified_review_removed": true,
+    "duplicate_images_removed": 27
   }
 }

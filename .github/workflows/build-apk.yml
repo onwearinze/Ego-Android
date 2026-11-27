@@ -30,13 +30,13 @@ jobs:
           yes | "$SDKMANAGER" --licenses >/dev/null || true
           "$SDKMANAGER" --install "platform-tools" "platforms;android-35" "build-tools;35.0.0"
 
-      - name: Verify optional bundled crowd cheer
+      - name: Bundle offline CC0 crowd cheer
         run: |
-          if [ -s app/src/main/assets/audio/crowd-cheer.mp3 ]; then
-            echo "Bundled crowd-cheer.mp3 found."
-          else
-            echo "No crowd-cheer.mp3 supplied; the app will use its built-in celebratory chime fallback."
-          fi
+          mkdir -p app/src/main/assets/audio
+          curl --fail --location --retry 3 --retry-delay 2 \
+            'https://sfxmint.com/dl/crowd-chant-15.mp3' \
+            --output app/src/main/assets/audio/crowd-cheer.mp3
+          test -s app/src/main/assets/audio/crowd-cheer.mp3
 
       - name: Set up Gradle 8.9
         uses: gradle/actions/setup-gradle@v4

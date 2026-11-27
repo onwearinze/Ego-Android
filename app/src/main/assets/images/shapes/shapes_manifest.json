@@ -1,0 +1,342 @@
+[
+  {
+    "name": "Circle",
+    "dimension": "2D",
+    "file": "images/shapes/circle.png"
+  },
+  {
+    "name": "Oval",
+    "dimension": "2D",
+    "file": "images/shapes/oval.png"
+  },
+  {
+    "name": "Triangle",
+    "dimension": "2D",
+    "file": "images/shapes/triangle.png"
+  },
+  {
+    "name": "Square",
+    "dimension": "2D",
+    "file": "images/shapes/square.png"
+  },
+  {
+    "name": "Rectangle",
+    "dimension": "2D",
+    "file": "images/shapes/rectangle.png"
+  },
+  {
+    "name": "Star",
+    "dimension": "2D",
+    "file": "images/shapes/star.png"
+  },
+  {
+    "name": "Heart",
+    "dimension": "2D",
+    "file": "images/shapes/heart.png"
+  },
+  {
+    "name": "Diamond",
+    "dimension": "2D",
+    "file": "images/shapes/diamond.png"
+  },
+  {
+    "name": "Semicircle",
+    "dimension": "2D",
+    "file": "images/shapes/semicircle.png"
+  },
+  {
+    "name": "Quarter Circle",
+    "dimension": "2D",
+    "file": "images/shapes/quarter_circle.png"
+  },
+  {
+    "name": "Right Triangle Blue",
+    "dimension": "2D",
+    "file": "images/shapes/right_triangle_blue.png"
+  },
+  {
+    "name": "Parallelogram Purple",
+    "dimension": "2D",
+    "file": "images/shapes/parallelogram_purple.png"
+  },
+  {
+    "name": "Trapezoid Blue",
+    "dimension": "2D",
+    "file": "images/shapes/trapezoid_blue.png"
+  },
+  {
+    "name": "Kite Yellow",
+    "dimension": "2D",
+    "file": "images/shapes/kite_yellow.png"
+  },
+  {
+    "name": "Rhombus Pink",
+    "dimension": "2D",
+    "file": "images/shapes/rhombus_pink.png"
+  },
+  {
+    "name": "Pentagon Cyan",
+    "dimension": "2D",
+    "file": "images/shapes/pentagon_cyan.png"
+  },
+  {
+    "name": "Hexagon Yellow",
+    "dimension": "2D",
+    "file": "images/shapes/hexagon_yellow.png"
+  },
+  {
+    "name": "Heptagon Purple",
+    "dimension": "2D",
+    "file": "images/shapes/heptagon_purple.png"
+  },
+  {
+    "name": "Octagon Orange",
+    "dimension": "2D",
+    "file": "images/shapes/octagon_orange.png"
+  },
+  {
+    "name": "Nonagon Pink",
+    "dimension": "2D",
+    "file": "images/shapes/nonagon_pink.png"
+  },
+  {
+    "name": "Decagon Blue",
+    "dimension": "2D",
+    "file": "images/shapes/decagon_blue.png"
+  },
+  {
+    "name": "Crescent Moon",
+    "dimension": "2D",
+    "file": "images/shapes/crescent_moon.png"
+  },
+  {
+    "name": "Ring",
+    "dimension": "2D",
+    "file": "images/shapes/ring.png"
+  },
+  {
+    "name": "Sector",
+    "dimension": "2D",
+    "file": "images/shapes/sector.png"
+  },
+  {
+    "name": "Arch",
+    "dimension": "2D",
+    "file": "images/shapes/arch.png"
+  },
+  {
+    "name": "Cross Blue",
+    "dimension": "2D",
+    "file": "images/shapes/cross_blue.png"
+  },
+  {
+    "name": "Arrow Yellow",
+    "dimension": "2D",
+    "file": "images/shapes/arrow_yellow.png"
+  },
+  {
+    "name": "Starburst Cyan",
+    "dimension": "2D",
+    "file": "images/shapes/starburst_cyan.png"
+  },
+  {
+    "name": "Teardrop Pink",
+    "dimension": "2D",
+    "file": "images/shapes/teardrop_pink.png"
+  },
+  {
+    "name": "Gear",
+    "dimension": "2D",
+    "file": "images/shapes/gear.png"
+  },
+  {
+    "name": "Spiral",
+    "dimension": "2D",
+    "file": "images/shapes/spiral.png"
+  },
+  {
+    "name": "Cube Blue",
+    "dimension": "3D",
+    "file": "images/shapes/cube_blue.png"
+  },
+  {
+    "name": "Cuboid Red",
+    "dimension": "3D",
+    "file": "images/shapes/cuboid_red.png"
+  },
+  {
+    "name": "Sphere Yellow",
+    "dimension": "3D",
+    "file": "images/shapes/sphere_yellow.png"
+  },
+  {
+    "name": "Cylinder Purple",
+    "dimension": "3D",
+    "file": "images/shapes/cylinder_purple.png"
+  },
+  {
+    "name": "Cone Green",
+    "dimension": "3D",
+    "file": "images/shapes/cone_green.png"
+  },
+  {
+    "name": "Square Pyramid Yellow",
+    "dimension": "3D",
+    "file": "images/shapes/square_pyramid_yellow.png"
+  },
+  {
+    "name": "Triangular Prism Blue",
+    "dimension": "3D",
+    "file": "images/shapes/triangular_prism_blue.png"
+  },
+  {
+    "name": "Triangular Pyramid Red",
+    "dimension": "3D",
+    "file": "images/shapes/triangular_pyramid_red.png"
+  },
+  {
+    "name": "Hemisphere Purple",
+    "dimension": "3D",
+    "file": "images/shapes/hemisphere_purple.png"
+  },
+  {
+    "name": "Ellipsoid Orange",
+    "dimension": "3D",
+    "file": "images/shapes/ellipsoid_orange.png"
+  },
+  {
+    "name": "Pentagonal Prism Pink",
+    "dimension": "3D",
+    "file": "images/shapes/pentagonal_prism_pink.png"
+  },
+  {
+    "name": "Trapezoidal Prism Purple",
+    "dimension": "3D",
+    "file": "images/shapes/trapezoidal_prism_purple.png"
+  },
+  {
+    "name": "Parallelepiped Blue",
+    "dimension": "3D",
+    "file": "images/shapes/parallelepiped_blue.png"
+  },
+  {
+    "name": "Wedge Yellow",
+    "dimension": "3D",
+    "file": "images/shapes/wedge_yellow.png"
+  },
+  {
+    "name": "Octagonal Prism Pink",
+    "dimension": "3D",
+    "file": "images/shapes/octagonal_prism_pink.png"
+  },
+  {
+    "name": "Decagonal Prism Orange",
+    "dimension": "3D",
+    "file": "images/shapes/decagonal_prism_orange.png"
+  },
+  {
+    "name": "Pentagonal Pyramid Blue",
+    "dimension": "3D",
+    "file": "images/shapes/pentagonal_pyramid_blue.png"
+  },
+  {
+    "name": "Hexagonal Pyramid Purple",
+    "dimension": "3D",
+    "file": "images/shapes/hexagonal_pyramid_purple.png"
+  },
+  {
+    "name": "Hexagonal Prism Pink",
+    "dimension": "3D",
+    "file": "images/shapes/hexagonal_prism_pink.png"
+  },
+  {
+    "name": "Tetrahedron Purple",
+    "dimension": "3D",
+    "file": "images/shapes/tetrahedron_purple.png"
+  },
+  {
+    "name": "Octahedron Yellow",
+    "dimension": "3D",
+    "file": "images/shapes/octahedron_yellow.png"
+  },
+  {
+    "name": "Dodecahedron Blue",
+    "dimension": "3D",
+    "file": "images/shapes/dodecahedron_blue.png"
+  },
+  {
+    "name": "Icosahedron Red",
+    "dimension": "3D",
+    "file": "images/shapes/icosahedron_red.png"
+  },
+  {
+    "name": "Geodesic Sphere Green",
+    "dimension": "3D",
+    "file": "images/shapes/geodesic_sphere_green.png"
+  },
+  {
+    "name": "Rhombic Dodecahedron Pink",
+    "dimension": "3D",
+    "file": "images/shapes/rhombic_dodecahedron_pink.png"
+  },
+  {
+    "name": "Stellated Polyhedron Cyan",
+    "dimension": "3D",
+    "file": "images/shapes/stellated_polyhedron_cyan.png"
+  },
+  {
+    "name": "Frustum Purple",
+    "dimension": "3D",
+    "file": "images/shapes/frustum_purple.png"
+  },
+  {
+    "name": "Torus Red",
+    "dimension": "3D",
+    "file": "images/shapes/torus_red.png"
+  },
+  {
+    "name": "Hemisphere Red",
+    "dimension": "3D",
+    "file": "images/shapes/hemisphere_red.png"
+  },
+  {
+    "name": "Sector Solid Orange",
+    "dimension": "3D",
+    "file": "images/shapes/sector_solid_orange.png"
+  },
+  {
+    "name": "Sector Solid Violet",
+    "dimension": "3D",
+    "file": "images/shapes/sector_solid_violet.png"
+  },
+  {
+    "name": "Bowl Blue",
+    "dimension": "3D",
+    "file": "images/shapes/bowl_blue.png"
+  },
+  {
+    "name": "Hyperboloid Yellow",
+    "dimension": "3D",
+    "file": "images/shapes/hyperboloid_yellow.png"
+  },
+  {
+    "name": "Hourglass Solid Green",
+    "dimension": "3D",
+    "file": "images/shapes/hourglass_solid_green.png"
+  },
+  {
+    "name": "Bowl Violet",
+    "dimension": "3D",
+    "file": "images/shapes/bowl_violet.png"
+  },
+  {
+    "name": "Capsule Blue",
+    "dimension": "3D",
+    "file": "images/shapes/capsule_blue.png"
+  },
+  {
+    "name": "Composite Solid",
+    "dimension": "3D",
+    "file": "images/shapes/composite_solid.png"
+  }
+]

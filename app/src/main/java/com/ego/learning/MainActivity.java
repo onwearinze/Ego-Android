@@ -2,21 +2,32 @@ package com.ego.learning;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Looper;
+import android.os.SystemClock;
 import android.webkit.JavascriptInterface;
 import android.webkit.WebChromeClient;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.graphics.Color;
+import android.view.View;
+import android.widget.FrameLayout;
+import android.widget.ImageView;
 import android.speech.tts.TextToSpeech;
 import android.speech.tts.Voice;
 import java.util.Locale;
 import java.util.Set;
 
 public class MainActivity extends Activity {
+    private static final long SPLASH_DURATION_MS = 2000L;
     private WebView webView;
     private TextToSpeech tts;
     private volatile boolean ttsReady = false;
+    private FrameLayout rootLayout;
+    private ImageView splashView;
+    private final Handler mainHandler = new Handler(Looper.getMainLooper());
+    private long launchTime;
 
     public class EgoVoice {
         @JavascriptInterface
@@ -36,6 +47,7 @@ public class MainActivity extends Activity {
     }
 
     @Override public void onCreate(Bundle savedInstanceState) {
+        launchTime = SystemClock.elapsedRealtime();
         super.onCreate(savedInstanceState);
         getWindow().setStatusBarColor(Color.rgb(98,72,168));
         getWindow().setNavigationBarColor(Color.rgb(73,53,138));
@@ -62,6 +74,8 @@ public class MainActivity extends Activity {
                 ttsReady = offlineVoiceFound;
             }
         });
+
+        rootLayout = new FrameLayout(this);
         webView = new WebView(this);
         webView.setBackgroundColor(Color.rgb(255,250,246));
         WebSettings s = webView.getSettings();
@@ -76,9 +90,28 @@ public class MainActivity extends Activity {
         webView.addJavascriptInterface(new EgoVoice(), "EgoNative");
         webView.setWebViewClient(new WebViewClient());
         webView.setWebChromeClient(new WebChromeClient());
-        setContentView(webView);
+        rootLayout.addView(webView, new FrameLayout.LayoutParams(
+                FrameLayout.LayoutParams.MATCH_PARENT, FrameLayout.LayoutParams.MATCH_PARENT));
+
+        splashView = new ImageView(this);
+        splashView.setImageResource(R.drawable.ego_splash);
+        splashView.setScaleType(ImageView.ScaleType.FIT_XY);
+        splashView.setBackgroundColor(Color.rgb(170, 0, 0));
+        rootLayout.addView(splashView, new FrameLayout.LayoutParams(
+                FrameLayout.LayoutParams.MATCH_PARENT, FrameLayout.LayoutParams.MATCH_PARENT));
+        setContentView(rootLayout);
+
         if (savedInstanceState == null) webView.loadUrl("file:///android_asset/index.html");
         else webView.restoreState(savedInstanceState);
+
+        long remaining = Math.max(0L, SPLASH_DURATION_MS - (SystemClock.elapsedRealtime() - launchTime));
+        mainHandler.postDelayed(() -> {
+            if (splashView != null && rootLayout != null) {
+                rootLayout.removeView(splashView);
+                splashView = null;
+                getWindow().setBackgroundDrawableResource(android.R.color.white);
+            }
+        }, remaining);
     }
 
     @Override protected void onSaveInstanceState(Bundle out) {
@@ -90,6 +123,7 @@ public class MainActivity extends Activity {
         else super.onBackPressed();
     }
     @Override protected void onDestroy() {
+        mainHandler.removeCallbacksAndMessages(null);
         if (webView != null) { webView.destroy(); webView = null; }
         if (tts != null) { tts.stop(); tts.shutdown(); tts = null; }
         super.onDestroy();
