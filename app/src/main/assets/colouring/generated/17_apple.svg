@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Apple">
+<title>Apple</title>
+<rect width="512" height="512" fill="#ffffff"/>
+<path d="M256 165 Q205 105 135 160 Q65 225 125 340 Q170 430 250 390 Q330 430 390 340 Q450 225 375 160 Q305 105 256 165 Z" fill="white" stroke-width="11" id="region-1" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M255 165 Q245 115 265 80" fill="white" stroke-width="11" id="region-2" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M260 120 Q315 65 360 100 Q325 145 260 120" fill="white" stroke-width="11" id="region-3" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+</svg>

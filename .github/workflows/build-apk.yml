@@ -2,7 +2,7 @@ name: Build EGO Android APK
 
 on:
   push:
-    branches: [main]
+    branches: [main, ego/build-pipeline]
   workflow_dispatch:
 
 permissions:
@@ -10,8 +10,8 @@ permissions:
 
 jobs:
   build:
+    name: Build and package EGO
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout EGO project
         uses: actions/checkout@v4
@@ -26,21 +26,23 @@ jobs:
         run: |
           SDK_ROOT="${ANDROID_HOME:-/usr/local/lib/android/sdk}"
           SDKMANAGER="$(find "$SDK_ROOT/cmdline-tools" -type f -name sdkmanager | sort | tail -n 1)"
+          test -n "$SDKMANAGER"
           yes | "$SDKMANAGER" --licenses >/dev/null || true
-          "$SDKMANAGER" --install "platforms;android-35" "build-tools;35.0.0"
+          "$SDKMANAGER" --install "platform-tools" "platforms;android-35" "build-tools;35.0.0"
 
-      - name: Set up Gradle
+
+      - name: Set up Gradle 8.9
         uses: gradle/actions/setup-gradle@v4
         with:
           gradle-version: '8.9'
 
-      - name: Build actual EGO repository
-        run: gradle assembleDebug
+      - name: Build debug APK
+        run: gradle assembleDebug --no-daemon
 
       - name: Upload EGO APK
         uses: actions/upload-artifact@v4
         with:
-          name: EGO-Updated-APK
+          name: EGO-Complete-Upgrade-APK
           path: app/build/outputs/apk/debug/app-debug.apk
           if-no-files-found: error
           retention-days: 30

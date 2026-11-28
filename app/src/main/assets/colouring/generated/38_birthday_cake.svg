@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Birthday Cake">
+<title>Birthday Cake</title>
+<rect width="512" height="512" fill="#ffffff"/>
+<path d="M95 270 Q256 300 417 270 L400 405 Q256 455 112 405 Z" fill="white" stroke-width="11" id="region-1" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M95 270 Q120 220 160 260 Q200 210 240 260 Q280 210 320 260 Q360 210 400 260 Q425 270 417 285" fill="white" stroke-width="11" id="region-2" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M115 335 Q160 370 205 335 Q250 370 295 335 Q340 370 395 335" fill="white" stroke-width="11" id="region-3" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<rect x="153" y="145" width="24" height="90" rx="6" fill="white" stroke-width="11" id="region-4" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M165 125 Q147 105 165 80 Q183 105 165 125" fill="white" stroke-width="11" id="region-5" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<rect x="243" y="145" width="24" height="90" rx="6" fill="white" stroke-width="11" id="region-6" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M255 125 Q237 105 255 80 Q273 105 255 125" fill="white" stroke-width="11" id="region-7" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<rect x="333" y="145" width="24" height="90" rx="6" fill="white" stroke-width="11" id="region-8" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M345 125 Q327 105 345 80 Q363 105 345 125" fill="white" stroke-width="11" id="region-9" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+</svg>

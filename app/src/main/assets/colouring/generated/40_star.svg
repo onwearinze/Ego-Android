@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Star">
+<title>Star</title>
+<rect width="512" height="512" fill="#ffffff"/>
+<polygon points="256.0,86.0 300.0838939219355,195.32372542187895 417.67960777017606,203.46711095625895 327.3292387221365,279.1762745781211 355.9234928897204,393.5328890437411 256.0,331.0 156.07650711027958,393.5328890437411 184.6707612778635,279.1762745781211 94.32039222982388,203.46711095625898 211.9161060780645,195.32372542187895" fill="white" stroke-width="11" id="region-1" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M65 120 L95 120 M80 105 L80 135" fill="none" stroke-width="7" id="region-2" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M415 115 L445 115 M430 100 L430 130" fill="none" stroke-width="7" id="region-3" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M75 390 L105 390 M90 375 L90 405" fill="none" stroke-width="7" id="region-4" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M405 390 L435 390 M420 375 L420 405" fill="none" stroke-width="7" id="region-5" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+</svg>

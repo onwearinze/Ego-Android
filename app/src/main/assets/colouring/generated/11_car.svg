@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Car">
+<title>Car</title>
+<rect width="512" height="512" fill="#ffffff"/>
+<path d="M75 320 L95 245 Q110 220 160 215 L215 145 Q240 125 310 145 L365 220 L420 245 L440 320 Z" fill="white" stroke-width="11" id="region-1" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M165 215 L220 155 Q240 145 275 150 L275 215 Z" fill="white" stroke-width="11" id="region-2" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M292 150 Q330 150 350 215 L292 215 Z" fill="white" stroke-width="11" id="region-3" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="155" cy="330" r="42" fill="white" stroke-width="11" id="region-4" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="155" cy="330" r="17" fill="white" stroke-width="11" id="region-5" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="365" cy="330" r="42" fill="white" stroke-width="11" id="region-6" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="365" cy="330" r="17" fill="white" stroke-width="11" id="region-7" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<rect x="65" y="285" width="40" height="28" rx="8" fill="white" stroke-width="11" id="region-8" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<rect x="410" y="285" width="35" height="28" rx="8" fill="white" stroke-width="11" id="region-9" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+</svg>

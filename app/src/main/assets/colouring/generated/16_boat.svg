@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Boat">
+<title>Boat</title>
+<rect width="512" height="512" fill="#ffffff"/>
+<path d="M70 300 L440 300 L385 385 Q260 425 130 385 Z" fill="white" stroke-width="11" id="region-1" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M250 90 L250 295 L115 295 Z" fill="white" stroke-width="11" id="region-2" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M270 125 L390 295 L270 295 Z" fill="white" stroke-width="11" id="region-3" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M250 75 L250 310" fill="none" stroke-width="12" id="region-4" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M60 420 Q100 390 140 420 T220 420 T300 420 T380 420 T460 420" fill="white" stroke-width="11" id="region-5" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Watermelon">
+<title>Watermelon</title>
+<rect width="512" height="512" fill="#ffffff"/>
+<path d="M70 210 Q256 470 442 210 Z" fill="white" stroke-width="11" id="region-1" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M90 210 Q256 430 422 210" fill="white" stroke-width="11" id="region-2" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<ellipse cx="170" cy="275" rx="8" ry="16" fill="white" stroke-width="5" transform="rotate(-25 170 275)" id="region-3" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<ellipse cx="225" cy="320" rx="8" ry="16" fill="white" stroke-width="5" transform="rotate(-25 225 320)" id="region-4" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<ellipse cx="285" cy="350" rx="8" ry="16" fill="white" stroke-width="5" transform="rotate(-25 285 350)" id="region-5" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<ellipse cx="345" cy="300" rx="8" ry="16" fill="white" stroke-width="5" transform="rotate(-25 345 300)" id="region-6" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<ellipse cx="255" cy="260" rx="8" ry="16" fill="white" stroke-width="5" transform="rotate(-25 255 260)" id="region-7" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+</svg>

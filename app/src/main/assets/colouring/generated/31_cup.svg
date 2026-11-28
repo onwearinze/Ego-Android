@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Cup">
+<title>Cup</title>
+<rect width="512" height="512" fill="#ffffff"/>
+<path d="M120 150 L365 150 L345 360 Q340 410 245 410 Q150 410 140 360 Z" fill="white" stroke-width="11" id="region-1" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M365 200 Q455 185 440 280 Q430 335 350 315" fill="white" stroke-width="11" id="region-2" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M150 175 Q245 195 345 175" fill="white" stroke-width="11" id="region-3" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+</svg>

@@ -1,0 +1,58 @@
+{
+  "object_art": [
+    "apple",
+    "banana",
+    "orange",
+    "grapes",
+    "lion",
+    "elephant",
+    "monkey",
+    "butterfly",
+    "car",
+    "bus",
+    "airplane",
+    "bicycle",
+    "soccer-ball",
+    "teddy",
+    "star",
+    "hibiscus"
+  ],
+  "digit_alphabet_png_count": 36,
+  "colouring_svg_count": 50,
+  "catalog": {
+    "image_count": 438,
+    "categories": {
+      "African Culture": 16,
+      "Animals": 28,
+      "Birds": 31,
+      "Body Organs": 16,
+      "Body Parts": 16,
+      "Children And Emotions": 16,
+      "Clothing And Accessories": 17,
+      "Community Helpers And Jobs": 16,
+      "Food And Groceries": 11,
+      "Fruits": 31,
+      "Furniture": 16,
+      "Home And Toys": 15,
+      "Household And Kitchen": 14,
+      "Hygiene And Self Care": 16,
+      "Insects And Small Creatures": 16,
+      "Musical Instruments": 17,
+      "Nature Weather And Space": 13,
+      "School Supplies": 13,
+      "Sea Animals": 16,
+      "Shapes": 32,
+      "Sports And Play": 11,
+      "Vehicles": 45,
+      "Water Transport": 16
+    },
+    "unidentified_review_removed": true,
+    "duplicate_images_removed": 27
+  },
+  "teaching_audio": {
+    "speech_provider": "Android TextToSpeech",
+    "voice_policy": "Installed offline English system voice; prefers en-GB",
+    "success_feedback": "Android ToneGenerator system acknowledgement tone",
+    "nursery_rhymes": "Bundled song recordings retained"
+  }
+}

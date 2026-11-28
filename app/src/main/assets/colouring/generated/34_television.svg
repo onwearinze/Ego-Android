@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Television">
+<title>Television</title>
+<rect width="512" height="512" fill="#ffffff"/>
+<rect x="65" y="95" width="382" height="270" rx="35" fill="white" stroke-width="11" id="region-1" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<rect x="95" y="125" width="322" height="205" rx="20" fill="white" stroke-width="11" id="region-2" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M170 365 L145 420" fill="none" stroke-width="12" id="region-3" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M345 365 L370 420" fill="none" stroke-width="12" id="region-4" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M200 65 L170 95" fill="none" stroke-width="8" id="region-5" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M310 65 L340 95" fill="none" stroke-width="8" id="region-6" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="390" cy="345" r="8" fill="white" stroke-width="11" id="region-7" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+</svg>

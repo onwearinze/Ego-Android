@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Rainbow">
+<title>Rainbow</title>
+<rect width="512" height="512" fill="#ffffff"/>
+<path d="M71 350 A185 185 0 0 1 441 350" fill="none" stroke-width="20" id="region-1" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M111 350 A145 145 0 0 1 401 350" fill="none" stroke-width="20" id="region-2" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M151 350 A105 105 0 0 1 361 350" fill="none" stroke-width="20" id="region-3" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M191 350 A65 65 0 0 1 321 350" fill="none" stroke-width="20" id="region-4" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M55 350 Q35 300 90 285 Q100 230 160 260 Q190 270 185 315 Q210 345 180 370 L90 370 Q60 370 55 350" fill="white" stroke-width="11" id="region-5" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M327 350 Q300 300 350 285 Q365 230 420 260 Q470 275 455 325 Q470 360 430 370 L350 370 Q325 370 327 350" fill="white" stroke-width="11" id="region-6" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+</svg>

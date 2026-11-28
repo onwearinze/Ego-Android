@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="House">
+<title>House</title>
+<rect width="512" height="512" fill="#ffffff"/>
+<polygon points="70,230 256,80 442,230 415,255 256,125 95,255" fill="white" stroke-width="11" id="region-1" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<rect x="115" y="230" width="282" height="205" rx="8" fill="white" stroke-width="11" id="region-2" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<rect x="220" y="315" width="75" height="120" rx="8" fill="white" stroke-width="11" id="region-3" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="278" cy="375" r="5" fill="#111" stroke-width="4" id="region-4" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<rect x="145" y="265" width="55" height="55" rx="5" fill="white" stroke-width="11" id="region-5" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M172 265 L172 320" fill="none" stroke-width="6" id="region-6" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M145 292 L200 292" fill="none" stroke-width="6" id="region-7" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<rect x="320" y="265" width="55" height="55" rx="5" fill="white" stroke-width="11" id="region-8" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M347 265 L347 320" fill="none" stroke-width="6" id="region-9" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M320 292 L375 292" fill="none" stroke-width="6" id="region-10" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<rect x="330" y="125" width="32" height="85" rx="5" fill="white" stroke-width="11" id="region-11" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+</svg>

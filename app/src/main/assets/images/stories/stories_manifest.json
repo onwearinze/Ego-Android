@@ -1,0 +1,122 @@
+[
+  {
+    "story_number": 1,
+    "title": "The Tortoise and the Hare",
+    "file": "images/stories/01_The_Tortoise_and_the_Hare.jpg",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "story_number": 2,
+    "title": "The Lion and the Mouse",
+    "file": "images/stories/02_The_Lion_and_the_Mouse.jpg",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "story_number": 3,
+    "title": "The Ant and the Grasshopper",
+    "file": "images/stories/03_The_Ant_and_the_Grasshopper.jpg",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "story_number": 4,
+    "title": "The Boy Who Cried Wolf",
+    "file": "images/stories/04_The_Boy_Who_Cried_Wolf.jpg",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "story_number": 5,
+    "title": "The Fox and the Grapes",
+    "file": "images/stories/05_The_Fox_and_the_Grapes.jpg",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "story_number": 6,
+    "title": "The Kind Elephant",
+    "file": "images/stories/06_The_Kind_Elephant.jpg",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "story_number": 7,
+    "title": "The Thirsty Crow",
+    "file": "images/stories/07_The_Thirsty_Crow.jpg",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "story_number": 8,
+    "title": "The Dog and His Reflection",
+    "file": "images/stories/08_The_Dog_and_His_Reflection.jpg",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "story_number": 9,
+    "title": "The Goat on the Bridge",
+    "file": "images/stories/09_The_Goat_on_the_Bridge.jpg",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "story_number": 10,
+    "title": "The Monkey and the Drum",
+    "file": "images/stories/10_The_Monkey_and_the_Drum.jpg",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "story_number": 11,
+    "title": "The Wise Owl",
+    "file": "images/stories/11_The_Wise_Owl.jpg",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "story_number": 12,
+    "title": "The Bee and the Flower",
+    "file": "images/stories/12_The_Bee_and_the_Flower.jpg",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "story_number": 13,
+    "title": "The Elephant Who Shared",
+    "file": "images/stories/13_The_Elephant_Who_Shared.jpg",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "story_number": 14,
+    "title": "The Little Caterpillar",
+    "file": "images/stories/14_The_Little_Caterpillar.jpg",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "story_number": 15,
+    "title": "The Frog Who Tried",
+    "file": "images/stories/15_The_Frog_Who_Tried.jpg",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "story_number": 16,
+    "title": "The Penguins Warm Scarf",
+    "file": "images/stories/16_The_Penguins_Warm_Scarf.jpg",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "story_number": 17,
+    "title": "Giraffes Tall Idea",
+    "file": "images/stories/17_Giraffes_Tall_Idea.jpg",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "story_number": 18,
+    "title": "The Squirrels Seeds",
+    "file": "images/stories/18_The_Squirrels_Seeds.jpg",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "story_number": 19,
+    "title": "The Dolphins Help",
+    "file": "images/stories/19_The_Dolphins_Help.jpg",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "story_number": 20,
+    "title": "The Rooster and the Sun",
+    "file": "images/stories/20_The_Rooster_and_the_Sun.jpg",
+    "aspect_ratio": "16:9"
+  }
+]

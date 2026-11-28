@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Kite">
+<title>Kite</title>
+<rect width="512" height="512" fill="#ffffff"/>
+<polygon points="256,65 420,230 256,395 92,230" fill="white" stroke-width="11" id="region-1" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M256 65 L256 395" fill="none" stroke-width="9" id="region-2" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M92 230 L420 230" fill="none" stroke-width="9" id="region-3" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M256 395 Q310 430 270 455 Q245 470 290 490" fill="white" stroke-width="11" id="region-4" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<polygon points="290,430 312,440 290,460 268,440" fill="white" stroke-width="11" id="region-5" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<polygon points="270,465 292,475 270,495 248,475" fill="white" stroke-width="11" id="region-6" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+</svg>

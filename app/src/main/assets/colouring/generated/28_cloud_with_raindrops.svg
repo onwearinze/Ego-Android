@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Cloud with Raindrops">
+<title>Cloud with Raindrops</title>
+<rect width="512" height="512" fill="#ffffff"/>
+<path d="M95 260 Q65 210 115 180 Q135 105 215 145 Q270 80 330 145 Q410 125 430 205 Q470 255 405 280 L120 280 Q85 280 95 260" fill="white" stroke-width="11" id="region-1" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M155 335 Q137 360 155 380 Q173 360 155 335 Z" fill="white" stroke-width="11" id="region-2" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M255 355 Q237 380 255 400 Q273 380 255 355 Z" fill="white" stroke-width="11" id="region-3" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M355 335 Q337 360 355 380 Q373 360 355 335 Z" fill="white" stroke-width="11" id="region-4" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+</svg>

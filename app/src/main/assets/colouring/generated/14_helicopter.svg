@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Helicopter">
+<title>Helicopter</title>
+<rect width="512" height="512" fill="#ffffff"/>
+<ellipse cx="250" cy="270" rx="145" ry="70" fill="white" stroke-width="11" id="region-1" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="360" cy="255" r="45" fill="white" stroke-width="11" id="region-2" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M380 260 L455 220 L465 235 L400 285" fill="white" stroke-width="11" id="region-3" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M135 270 L90 310 L90 330 L190 310" fill="white" stroke-width="11" id="region-4" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M250 185 L250 100" fill="none" stroke-width="12" id="region-5" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M110 100 L390 100" fill="none" stroke-width="13" id="region-6" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M160 340 L145 380 L350 380 L335 340" fill="white" stroke-width="11" id="region-7" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M175 380 L145 410" fill="none" stroke-width="10" id="region-8" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M325 380 L355 410" fill="none" stroke-width="10" id="region-9" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="365" cy="255" r="10" fill="white" stroke-width="11" id="region-10" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+</svg>

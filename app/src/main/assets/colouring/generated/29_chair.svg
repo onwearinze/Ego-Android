@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Chair">
+<title>Chair</title>
+<rect width="512" height="512" fill="#ffffff"/>
+<rect x="160" y="110" width="190" height="145" rx="24" fill="white" stroke-width="11" id="region-1" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<rect x="150" y="250" width="210" height="35" rx="12" fill="white" stroke-width="11" id="region-2" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M175 285 L145 430" fill="none" stroke-width="13" id="region-3" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M335 285 L365 430" fill="none" stroke-width="13" id="region-4" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M175 260 L175 430" fill="none" stroke-width="13" id="region-5" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M335 260 L335 430" fill="none" stroke-width="13" id="region-6" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Strawberry">
+<title>Strawberry</title>
+<rect width="512" height="512" fill="#ffffff"/>
+<path d="M120 190 Q160 130 220 170 Q256 120 300 170 Q370 130 400 200 Q430 285 256 420 Q80 285 120 190 Z" fill="white" stroke-width="11" id="region-1" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M250 170 Q210 110 175 95 Q205 85 245 125 Q250 85 280 65 Q300 110 270 155 Q330 100 360 120 Q330 165 270 180" fill="white" stroke-width="11" id="region-2" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<ellipse cx="170" cy="220" rx="6" ry="10" fill="white" stroke-width="4" id="region-3" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<ellipse cx="245" cy="225" rx="6" ry="10" fill="white" stroke-width="4" id="region-4" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<ellipse cx="325" cy="225" rx="6" ry="10" fill="white" stroke-width="4" id="region-5" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<ellipse cx="200" cy="290" rx="6" ry="10" fill="white" stroke-width="4" id="region-6" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<ellipse cx="285" cy="310" rx="6" ry="10" fill="white" stroke-width="4" id="region-7" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<ellipse cx="245" cy="365" rx="6" ry="10" fill="white" stroke-width="4" id="region-8" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<ellipse cx="350" cy="285" rx="6" ry="10" fill="white" stroke-width="4" id="region-9" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+</svg>

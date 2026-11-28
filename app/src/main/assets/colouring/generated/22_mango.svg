@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Mango">
+<title>Mango</title>
+<rect width="512" height="512" fill="#ffffff"/>
+<path d="M130 340 Q80 220 170 135 Q245 65 340 120 Q430 180 390 300 Q355 405 245 410 Q170 410 130 340 Z" fill="white" stroke-width="11" id="region-1" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M270 130 Q290 80 325 55" fill="white" stroke-width="11" id="region-2" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M305 95 Q360 45 405 75 Q375 130 305 95" fill="white" stroke-width="11" id="region-3" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M155 320 Q205 360 275 350" fill="white" stroke-width="11" id="region-4" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Butterfly">
+<title>Butterfly</title>
+<rect width="512" height="512" fill="#ffffff"/>
+<ellipse cx="256" cy="255" rx="24" ry="112" fill="white" stroke-width="11" id="region-1" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M245 155 Q205 55 115 105 Q55 165 155 245 Q205 275 245 220" fill="white" stroke-width="11" id="region-2" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M267 155 Q307 55 397 105 Q457 165 357 245 Q307 275 267 220" fill="white" stroke-width="11" id="region-3" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M245 280 Q205 340 135 375 Q95 390 100 330 Q125 275 245 280" fill="white" stroke-width="11" id="region-4" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M267 280 Q307 340 377 375 Q417 390 412 330 Q387 275 267 280" fill="white" stroke-width="11" id="region-5" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M248 145 Q215 75 190 70 M264 145 Q297 75 322 70" fill="white" stroke-width="11" id="region-6" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="160" cy="160" r="23" fill="white" stroke-width="11" id="region-7" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="350" cy="160" r="23" fill="white" stroke-width="11" id="region-8" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="165" cy="330" r="23" fill="white" stroke-width="11" id="region-9" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="350" cy="330" r="23" fill="white" stroke-width="11" id="region-10" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" />
+</svg>
