@@ -1,83 +1,83 @@
 [
   {
-    "name": "Beaded Gourd Rattle",
+    "name": "Yoruba man",
     "category": "African Culture",
-    "filename": "african_culture/8840_beaded_gourd_rattle.png"
-  },
-  {
-    "name": "Bronze Royal Figure",
-    "category": "African Culture",
-    "filename": "african_culture/8840_bronze_royal_figure.png"
-  },
-  {
-    "name": "Clay Pots",
-    "category": "African Culture",
-    "filename": "african_culture/8840_clay_pots.png"
-  },
-  {
-    "name": "Food Bowl",
-    "category": "African Culture",
-    "filename": "african_culture/8840_food_bowl.png"
+    "filename": "african_culture/yoruba_man.png"
   },
   {
     "name": "Talking Drum",
     "category": "African Culture",
-    "filename": "african_culture/8840_talking_drum.png"
+    "filename": "african_culture/talking_drum.png"
   },
   {
-    "name": "Traditional Boy Blue Attire",
+    "name": "Yoruba woman",
     "category": "African Culture",
-    "filename": "african_culture/8840_traditional_boy_blue_attire.png"
+    "filename": "african_culture/yoruba_woman.png"
   },
   {
-    "name": "Traditional Boy Light Blue Attire",
+    "name": "ichaka (in Igbo)",
     "category": "African Culture",
-    "filename": "african_culture/8840_traditional_boy_light_blue_attire.png"
+    "filename": "african_culture/ichaka_igbo.png"
   },
   {
-    "name": "Traditional Boy Red Attire",
+    "name": "Igbo man",
     "category": "African Culture",
-    "filename": "african_culture/8840_traditional_boy_red_attire.png"
+    "filename": "african_culture/igbo_man.png"
   },
   {
-    "name": "Traditional Boy Striped Attire",
+    "name": "wine calabash",
     "category": "African Culture",
-    "filename": "african_culture/8840_traditional_boy_striped_attire.png"
+    "filename": "african_culture/wine_calabash.png"
   },
   {
-    "name": "Traditional Girl Blue Attire",
+    "name": "Igbo woman",
     "category": "African Culture",
-    "filename": "african_culture/8840_traditional_girl_blue_attire.png"
+    "filename": "african_culture/igbo_woman.png"
   },
   {
-    "name": "Traditional Girl Colorful Attire",
+    "name": "weaved mat",
     "category": "African Culture",
-    "filename": "african_culture/8840_traditional_girl_colorful_attire.png"
+    "filename": "african_culture/weaved_mat.png"
   },
   {
-    "name": "Traditional Girl Coral Beads",
+    "name": "Hausa man",
     "category": "African Culture",
-    "filename": "african_culture/8840_traditional_girl_coral_beads.png"
+    "filename": "african_culture/hausa_man.png"
   },
   {
-    "name": "Traditional Girl Festive Attire",
+    "name": "decorative bowl",
     "category": "African Culture",
-    "filename": "african_culture/8840_traditional_girl_festive_attire.png"
+    "filename": "african_culture/decorative_bowl.png"
   },
   {
-    "name": "Traditional Girl Red Attire",
+    "name": "Hausa woman",
     "category": "African Culture",
-    "filename": "african_culture/8840_traditional_girl_red_attire.png"
+    "filename": "african_culture/hausa_woman.png"
   },
   {
-    "name": "Woven Hat",
+    "name": "woven sun hat",
     "category": "African Culture",
-    "filename": "african_culture/8840_woven_hat.png"
+    "filename": "african_culture/woven_sun_hat.png"
   },
   {
-    "name": "Woven Mat",
+    "name": "Benin woman",
     "category": "African Culture",
-    "filename": "african_culture/8840_woven_mat.png"
+    "filename": "african_culture/benin_woman.png"
+  },
+  {
+    "name": "Benin Bronze",
+    "category": "African Culture",
+    "filename": "african_culture/benin_bronze.png"
+  },
+  {
+    "name": "Female Dancer",
+    "category": "African Culture",
+    "filename": "african_culture/female_dancer.png"
+  },
+  {
+    "name": "male dancer",
+    "category": "African Culture",
+    "filename": "african_culture/male_dancer.png"
   },
   {
     "name": "Alpaca",

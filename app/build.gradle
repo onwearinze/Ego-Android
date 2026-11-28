@@ -17,7 +17,7 @@ android {
         applicationId 'com.ego.learning'
         minSdk 23
         targetSdk 35
-        versionCode 4
-        versionName '2.1.0'
+        versionCode 7
+        versionName '2.1.3'
     }
 }

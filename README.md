@@ -34,7 +34,7 @@ The original module navigation and learning activity logic remain in place.
 - Sound Safari currently uses spoken animal-call words through the app's speech engine. It does not yet include authentic recorded animal-effect audio.
 
 
-See `EGO_UPDATE_NOTES.md` for the latest source changes, verification results, and the optional offline crowd-cheer audio asset.
+See `EGO_AUDIO_AND_PHONICS_UPDATE.md` for the current system-voice and phonics changes.
 
 
 ## Categorised illustration catalog
@@ -58,3 +58,8 @@ learning illustrations and activity-menu art where a relevant image exists.
 
 ## Nursery Rhymes Update
 A dedicated Nursery Rhymes module now includes the five supplied songs. The supplied `background_sound.mp3` replaces the previous generated background tone and is controlled by the parent music setting. See `EGO_NURSERY_RHYMES_UPDATE.md`.
+
+
+## Version 2.1.3
+- Spoken teaching prompts use the installed Android offline English TTS voice.
+- Added a 44-phoneme British English lesson and corrected phonics teaching away from schwa-added pseudo-sounds.

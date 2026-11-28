@@ -19,12 +19,6 @@
   ],
   "digit_alphabet_png_count": 36,
   "colouring_svg_count": 50,
-  "crowd_cheer": {
-    "filename": "crowd-cheer.mp3",
-    "source": "https://sfxmint.com/sounds/crowd-chant-15",
-    "license": "CC0 1.0",
-    "human_recorded": false
-  },
   "catalog": {
     "image_count": 438,
     "categories": {
@@ -54,5 +48,11 @@
     },
     "unidentified_review_removed": true,
     "duplicate_images_removed": 27
+  },
+  "teaching_audio": {
+    "speech_provider": "Android TextToSpeech",
+    "voice_policy": "Installed offline English system voice; prefers en-GB",
+    "success_feedback": "Android ToneGenerator system acknowledgement tone",
+    "nursery_rhymes": "Bundled song recordings retained"
   }
 }
