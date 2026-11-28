@@ -358,29 +358,38 @@ function choices(arr,correct){return `<div class="choices">${arr.map(x=>`<button
 const letterSoundExamples={
 a:'apple',b:'ball',c:'cat',d:'dog',e:'egg',f:'fish',g:'goat',h:'hat',i:'insect',j:'jam',k:'kite',l:'leg',m:'moon',n:'nest',o:'orange',p:'pig',q:'queen',r:'rabbit',s:'sun',t:'top',u:'umbrella',v:'van',w:'web',x:'box',y:'yes',z:'zip'
 };
-const graphemeRules=['tch','igh','air','ear','ure','sh','ch','th','wh','ph','ck','ng','qu','ee','ea','oo','ai','ay','oa','ow','ou','ar','or','er','ir','ur','oi','oy','ue','ew','au','aw'];
-function phonicsParts(word){
-  const out=[];
-  for(let i=0;i<word.length;){
-    const match=graphemeRules.find(g=>word.slice(i,i+g.length)===g);
-    if(match){out.push(match);i+=match.length;}
-    else{out.push(word[i]);i++;}
-  }
-  return out;
+// Audio keys match the bundled Phonicademy recordings. A grapheme may map to
+// different sounds by word context; special cases are handled before fallback.
+const phonemeAudioMap={
+a:'a',b:'b',c:'c',d:'d',e:'e',f:'f',g:'g',h:'h',i:'i',j:'j',k:'k',l:'l',m:'m',n:'n',o:'o',p:'p',q:'qu',r:'r',s:'s',t:'t',u:'u',v:'v',w:'w',x:'x',y:'y',z:'z',
+qu:'qu',ch:'ch',sh:'sh',th:'th',ng:'ng',nk:'nk',ai:'ai',ay:'ai',ee:'ee',ea:'ee',igh:'igh',oa:'oa','u-e':'u-e',oo:'oo',ar:'ar',or:'or',ur:'ur',er:'ur',ir:'ur',ow:'ow',ou:'ow',oi:'oi',oy:'oi',aw:'aw',au:'aw',ear:'ear',air:'air',ure:'ure',ph:'f',ck:'k',wh:'w'
+};
+let phonemeAudioPlayer=null;
+function phonemeAudioKey(part,word){
+  const p=String(part||'').toLowerCase();
+  const w=String(word||'').toLowerCase();
+  if(p==='th') return (/(this|that|then|them|the|those|these|mother|father|brother|feather|leather|smooth)/.test(w))?'th-voiced':'th';
+  if(p==='oo') return /(book|look|good|foot|cook|wood|took|hood|stood)/.test(w)?'oo-book':'oo';
+  if(p==='c') return 'c';
+  if(p==='k') return 'k';
+  if(p==='e' && /^(be|he|me|we|she)$/.test(w)) return 'ee';
+  return phonemeAudioMap[p]||null;
 }
-function phonicsSound(part,word,index){
-  if(word){
-    const pieces=phonicsParts(word);
-    const position=index===0?'beginning':index===pieces.length-1?'end':'middle';
-    speak('Listen to the word '+word+'. Focus on the sound at the '+position+'.');
-  }else{
-    const example=letterSoundExamples[String(part).toLowerCase()]||String(part);
-    speak('Listen to the word '+example+'. Listen carefully to its first sound.');
-  }
+function playPhoneme(part,word){
+  const key=phonemeAudioKey(part,word);
+  if(!key){console.warn('No recorded phoneme for grapheme:',part);return Promise.resolve(false);}
+  try{
+    if(phonemeAudioPlayer){phonemeAudioPlayer.pause();phonemeAudioPlayer.currentTime=0;}
+    const player=new Audio('audio/phonemes/'+key+'.mp3');
+    phonemeAudioPlayer=player;
+    player.preload='auto'; player.volume=1;
+    return new Promise(resolve=>{
+      player.onended=()=>resolve(true); player.onerror=()=>resolve(false);
+      player.play().catch(err=>{console.warn('Phoneme audio playback failed:',err);resolve(false);});
+    });
+  }catch(err){console.warn('Phoneme audio unavailable:',err);return Promise.resolve(false);}
 }
-function phonicsBlend(word){
-  speak('Listen to the word '+word+'. Now say it slowly: '+word+'.', 'slow');
-}
+function phonicsBlend(word){phonicsWord(word)}
 function speakPhonicsTip(tip){
   const spoken=String(tip).replace(/\/([^/]+)\//g,'$1').replace(/IPA/gi,'sound');
   speak(spoken);
@@ -405,7 +414,7 @@ if(sub==='rhymeSongs'){
 }
 else if(sub==='meet'){let n=step,w=numberName(n),objects=n===0?objectIllustration('🧺','basket'):n<=10?Array.from({length:n},()=>objectIllustration('🍎','apple')).join(''):Array.from({length:Math.min(10,Math.floor(n/10))},()=>objectIllustration('🧱','building blocks')).join('')+(n%10?Array.from({length:n%10},()=>objectIllustration('⭐','yellow star')).join(''):'');html=`<div class="lesson"><div class="muted">MEET THE NUMBERS</div>${`<div class="digit-art-row" aria-label="Number ${n}">${String(n).split('').map(d=>`<img src="images/learning/digit_${d}.png" alt="Digit ${d}">`).join('')}</div>`}<div class="word">${w.toUpperCase()}</div><div class="object-row">${objects}</div><p class="muted">${n===0?'An empty basket means zero.':`Let’s count the objects together.`}</p><button class="btn" onclick="speak('${w}')">🔊 Hear number</button><button class="btn light" onclick="complete('I know this number! ⭐')">I know this!</button></div>`;msg=`${child}, this is ${n}, ${w}. Let’s say it together.`}
 else if(sub==='tens'){let n=step+10,t=Math.floor(n/10),u=n%10;html=`<div class="lesson"><div class="muted">TENS AND UNITS</div><div class="big">${n}</div><div class="word">${numberName(n).toUpperCase()}</div><div class="row"><div class="panel" style="flex:1"><b>🟨 ${t} tens</b><p class="muted">${t} group${t===1?'':'s'} of ten</p></div><div class="panel" style="flex:1"><b>🟦 ${u} ones</b><p class="muted">${u} extra ones</p></div></div><div class="object-row">${'🟨'.repeat(t)} ${'🟦'.repeat(u)}</div><h2>${t*10} + ${u} = ${n}</h2><p class="muted">${n===100?'Ten groups of ten make one hundred.':`${n} has ${t} tens and ${u} ones.`}</p><button class="btn" onclick="speak('${n} has ${t} tens and ${u} ones')">🔊 Listen</button></div>`;msg=`${n} is made of ${t} tens and ${u} ones.`}
-else if(['addition','subtraction','multiplication','division','numberGames'].includes(sub)){let op=sub==='numberGames'?['addition','subtraction','multiplication','division'][step%4]:sub;let a,b,res,sym;if(op==='addition'){a=1+(step%10);b=1+Math.floor(step/10);res=a+b;sym='+'}else if(op==='subtraction'){a=3+(step%10);b=1+Math.floor(step/10);res=a-b;sym='−'}else if(op==='multiplication'){a=1+(step%5);b=1+Math.floor(step/5);res=a*b;sym='×'}else{b=1+(step%5);res=1+Math.floor(step/5);a=b*res;sym='÷'}let items=[res,res+1,Math.max(0,res-1),res+2].sort((x,y)=>((x*17+step*13)%19)-((y*17+step*13)%19));let visual=op==='addition'?`🍎 `.repeat(a)+' + '+`🍎 `.repeat(b):op==='subtraction'?`🍪 `.repeat(a)+' take away '+`🍪 `.repeat(b):op==='multiplication'?Array.from({length:a},()=>`🟦 `.repeat(b)).join('<br>'):`🍬 `.repeat(a)+' shared into '+b+' groups';html=`<div class="lesson"><div class="muted">${op.toUpperCase()} · GAME ${step+1} OF 30</div><div class="object-row">${visual}</div><div class="big" style="font-size:49px">${a} ${sym} ${b} = ?</div><p class="muted">Tap an answer, or drag a counter into the basket.</p><div class="object-row"><span class="drag-token" draggable="true" data-result="${res}" style="padding:8px;background:#fff;border-radius:12px;touch-action:none">${op==='addition'?'🍎':op==='subtraction'?'🍪':op==='multiplication'?'🟦':'🍬'}</span></div><div id="mathDrop" class="panel" style="min-height:62px" ondragover="event.preventDefault()" ondrop="event.preventDefault();answer('${res}','${res}')">🧺 Drop the counter here</div>${choices(items,res)}</div>`;msg=`${child}, what is ${a} ${sym} ${b}?`}
+else if(['addition','subtraction','multiplication','division','numberGames'].includes(sub)){let op=sub==='numberGames'?['addition','subtraction','multiplication','division'][step%4]:sub;let a,b,res,sym;if(op==='addition'){a=1+(step%10);b=1+Math.floor(step/10);res=a+b;sym='+'}else if(op==='subtraction'){a=3+(step%10);b=1+Math.floor(step/10);res=a-b;sym='−'}else if(op==='multiplication'){a=1+(step%5);b=1+Math.floor(step/5);res=a*b;sym='×'}else{b=1+(step%5);res=1+Math.floor(step/5);a=b*res;sym='÷'}let items=[res,res+1,Math.max(0,res-1),res+2].sort((x,y)=>((x*17+step*13)%19)-((y*17+step*13)%19));let visual=op==='addition'?`🍎 `.repeat(a)+' + '+`🍎 `.repeat(b):op==='subtraction'?`🍪 `.repeat(a)+' take away '+`🍪 `.repeat(b):op==='multiplication'?Array.from({length:a},()=>`🟦 `.repeat(b)).join('<br>'):`🍬 `.repeat(a)+' shared into '+b+' groups';html=`<div class="lesson"><div class="muted">${op.toUpperCase()} · GAME ${step+1} OF 30</div><div class="object-row">${visual}</div><div class="big" style="font-size:49px">${a} ${sym} ${b} = ?</div><p class="muted">Choose the correct answer below.</p>${choices(items,res)}</div>`;msg=`${child}, what is ${a} ${sym} ${b}?`}
 else if(sub==='phonemes'){
   const p=englishPhonemes[step];
   html=`<div class="lesson phonics-lesson" id="swipeCard">
@@ -414,7 +423,7 @@ else if(sub==='phonemes'){
     <div class="word">${p.name}</div>
     <div class="panel" style="margin:12px auto;max-width:340px">
       <div class="muted">${p.group}</div>
-      <div style="font-size:40px;margin:8px 0">🔤</div>
+      <div style="margin:8px 0">${objectIllustration('',p.word)}</div>
       <b>Example word: ${p.word}</b>
       <p class="muted" style="margin-top:8px">${p.tip}</p>
     </div>
@@ -523,7 +532,7 @@ function flip(btn){
  if(memoryResolving||btn.dataset.open==='1'||btn.dataset.done==='1')return;
  btn.dataset.open='1';
  btn.innerHTML=`<img class="memory-card-art" src="${btn.dataset.src}" alt="${btn.dataset.value}">`;
- memoryOpen=[...document.querySelectorAll('.mem[data-open="1"]')];
+ memoryOpen=[...document.querySelectorAll('.mem[data-open="1"]:not([data-done="1"])')];
  if(memoryOpen.length!==2)return;
  const opened=[...memoryOpen];
  const [first,second]=opened;

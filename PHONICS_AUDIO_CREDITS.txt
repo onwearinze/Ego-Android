@@ -1,0 +1,9 @@
+EGO phoneme audio attribution
+
+Phonics sounds: Phonicademy (phonicademy.com)
+
+The 49 MP3 phoneme recordings are bundled under the Phonicademy Audio License
+version 2.1 (November 5, 2026). They may be included in this commercial app
+with attribution, but must not be distributed as a standalone sound pack.
+See app/src/main/assets/audio/phonemes/../LICENSE.txt in the source archive
+or the original supplied LICENSE.txt for the full terms.
